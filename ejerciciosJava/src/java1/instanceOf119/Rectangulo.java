@@ -1,4 +1,4 @@
-package java1.instanceOf;
+package java1.instanceOf119;
 
 public class Rectangulo extends FiguraGeometrica {
 

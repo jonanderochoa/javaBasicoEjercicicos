@@ -1,4 +1,4 @@
-package java1.ejemploenumeraciones;
+package java1.ejemploenumeraciones104;
 
 public enum Continentes {
 	AMERICA(34),

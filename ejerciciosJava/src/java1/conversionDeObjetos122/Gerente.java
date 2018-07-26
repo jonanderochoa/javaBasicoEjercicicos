@@ -1,4 +1,4 @@
-package java1.polimorfismo;
+package java1.conversionDeObjetos122;
 
 public class Gerente extends Empleado {
 

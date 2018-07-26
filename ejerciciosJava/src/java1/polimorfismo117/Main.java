@@ -1,4 +1,4 @@
-package java1.polimorfismo;
+package java1.polimorfismo117;
 
 public class Main {
 
@@ -13,7 +13,7 @@ public class Main {
 	}
 	
 	/**
-	 * Metodo que prueba el polimorfismo
+	 * Metodo que prueba el polimorfismo. Ejecutara empleado.toString del tipo que se introduzca
 	 * @param empleado
 	 */
 	public static void mostrarEmpleado(Empleado empleado) {
