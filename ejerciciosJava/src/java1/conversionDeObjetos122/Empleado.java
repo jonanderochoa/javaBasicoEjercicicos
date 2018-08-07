@@ -4,31 +4,32 @@ public class Empleado {
 
 	protected String nombre;
 	
-	protected String dni;
+	protected double sueldo;
 	
-	public Empleado(String nombre, String dni) {
+	public Empleado(String nombre, double sueldo) {
 		this.nombre = nombre;
-		this.dni = dni;
+		this.sueldo = sueldo;
 	}
-	
+
 	public String getNombre() {
 		return nombre;
 	}
-	
+
 	public void setNombre(String nombre) {
 		this.nombre = nombre;
 	}
-	
-	public String getDni() {
-		return dni;
+
+	public double getSueldo() {
+		return sueldo;
 	}
-	
-	public void setDni(String dni) {
-		this.dni = dni;
+
+	public void setSueldo(double sueldo) {
+		this.sueldo = sueldo;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Empleado [ nombre: "+ nombre + " DNI: " + dni + " ]";
+		return "Empleado [nombre=" + nombre + ", sueldo=" + sueldo + "]";
 	}
+	
 }

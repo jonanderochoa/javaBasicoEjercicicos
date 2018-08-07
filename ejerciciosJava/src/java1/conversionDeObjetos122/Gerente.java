@@ -2,24 +2,27 @@ package java1.conversionDeObjetos122;
 
 public class Gerente extends Empleado {
 
-	private int empleadosACargo;
-	
-	public Gerente(String nombre, String dni, int empleadosACargo) {
-		super(nombre, dni);
-		this.empleadosACargo = empleadosACargo;
+	private String departamento;
+
+	public Gerente(String nombre, double sueldo, String departamento) {
+		super(nombre, sueldo);
+		this.departamento = departamento;
 	}
 
-	public int getEmpleadosACargo() {
-		return empleadosACargo;
+	public String getDepartamento() {
+		return departamento;
 	}
 
-	public void setEmpleadosACargo(int empleadosACargo) {
-		this.empleadosACargo = empleadosACargo;
+	public void setDepartamento(String departamento) {
+		this.departamento = departamento;
 	}
-	
+
 	@Override
 	public String toString() {
-		return "Gerente[ " + super.toString() + " empleados a cargo: " + empleadosACargo + " ]";
+		return "Gerente [departamento=" + departamento + ", toString()=" + super.toString() + "]";
 	}
+	
+	
+	
 
 }
