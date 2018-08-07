@@ -33,3 +33,6 @@ hs_err_pid*
 *.gen
 *.tis
 .recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_1
+.recommenders/index/http___download_eclipse_org_recommenders_models_oxygen_/segments_2
+.recommenders/caches/manual-mappings.json
+.recommenders/caches/identified-project-coordinates.json
