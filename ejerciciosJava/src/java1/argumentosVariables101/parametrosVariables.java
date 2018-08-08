@@ -28,7 +28,7 @@ public class parametrosVariables {
 	
 	
 	/**
-	 * Metodo que recibe un numero variable de parametros y los muestra
+	 * Metodo que recibe un numero variable de parametros y los muestra.
 	 * El parametro variable ha de ser SIEMPRE el ultimo de los parametros de un metodo
 	 * @param nombre
 	 * @param valido
@@ -38,7 +38,6 @@ public class parametrosVariables {
 	public static void imprimirNumeros(String nombre, boolean valido, int... numeros) {
 		
 		System.out.println("Tipo de números: " + nombre);
-		int total = 0;
 		
 		System.out.println("Valores validos? " + valido);
 		
