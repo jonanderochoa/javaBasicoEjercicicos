@@ -6,7 +6,7 @@ import java1.excepciones133.manejoexcepciones1.domain.OperationException;
 public class MainArg {
 
 	//Le pasamos al metodo main un arreglo de String
-	public static void main(String args[]) throws OperationException {
+	public static void main(String args[]) {
 		
 		//Asignamos a variables los valores del arreglo de String
 		int op1 = Integer.parseInt(args[0]);

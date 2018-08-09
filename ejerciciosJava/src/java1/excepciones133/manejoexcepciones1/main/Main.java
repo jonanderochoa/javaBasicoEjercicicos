@@ -4,6 +4,10 @@ public class Main {
 
 	public static void main(String[] args) {
 		
+		/*
+		 * Si el metodo no atrapa la excepcion no se captura mediante try/catch se ha 
+		 * de lanzar mediante la clausula throws para lanzarla hacia arriba
+		 */
 		//Al capturar la excepcion no se para el programa
 		try {
 			
